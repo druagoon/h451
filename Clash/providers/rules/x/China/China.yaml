@@ -1,3 +1,4 @@
 payload:
   # 新加坡华侨银行
   - DOMAIN-SUFFIX,ocbc.com
+  - DOMAIN-SUFFIX,wise.com
