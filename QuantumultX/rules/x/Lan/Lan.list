@@ -1,0 +1,9 @@
+# Router managed domains
+HOST-SUFFIX,local,Lan
+HOST-SUFFIX,routerlogin.net,Lan
+HOST-SUFFIX,routerlogin.com,Lan
+HOST-SUFFIX,tplogin.cn,Lan
+HOST-SUFFIX,tplinkwifi.net,Lan
+HOST-SUFFIX,tplinklogin.net,Lan
+HOST-SUFFIX,melogin.cn,Lan
+HOST-SUFFIX,falogin.cn,Lan

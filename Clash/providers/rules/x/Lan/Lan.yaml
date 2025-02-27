@@ -1,0 +1,9 @@
+payload:
+  # Router managed domains
+  - DOMAIN-SUFFIX,routerlogin.net
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,tplinkwifi.net
+  - DOMAIN-SUFFIX,tplinklogin.net
+  - DOMAIN-SUFFIX,melogin.cn
+  - DOMAIN-SUFFIX,falogin.cn
