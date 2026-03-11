@@ -1,0 +1,52 @@
+payload:
+  # Google
+  - DOMAIN,storage.googleapis.com # Google storage
+  - DOMAIN-SUFFIX,dl.google.com # Google download
+  - DOMAIN-SUFFIX,ggpht.com # Google photos
+  - DOMAIN-SUFFIX,photos.google.com # Google photos
+  - DOMAIN-SUFFIX,drive.google.com # Google drive
+  - DOMAIN-SUFFIX,gvt1.com # Google video transcoding
+  - DOMAIN-SUFFIX,gstatic.com # Google static content
+  - DOMAIN-SUFFIX,googleusercontent.com # Google user-generated content
+  - DOMAIN-SUFFIX,ytimg.com # Google YouTube images
+  # Amazon
+  - DOMAIN-SUFFIX,cloudfront.net # Amazon CloudFront
+  - DOMAIN-SUFFIX,s3.amazonaws.com # Amazon S3
+  - DOMAIN-SUFFIX,s3-accelerate.amazonaws.com # Amazon S3 accelerate
+  - DOMAIN-WILDCARD,*.s3.*.amazonaws.com # Amazon S3
+  # GitHub
+  # - DOMAIN,release-assets.githubusercontent.com # Github releases
+  - DOMAIN-SUFFIX,githubusercontent.com # Github user-generated content
+  # Docker registries
+  - DOMAIN,registry-1.docker.io
+  - DOMAIN,production.cloudflare.docker.com
+  - DOMAIN-SUFFIX,ecr.io
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,quay.io
+  - DOMAIN-SUFFIX,public.ecr.aws
+  - DOMAIN-KEYWORD,docker
+  - DOMAIN-KEYWORD,registry
+  # VSCode
+  # See: https://code.visualstudio.com/docs/setup/network#_common-hostnames
+  - DOMAIN,update.code.visualstudio.com # Visual Studio Code download and update server
+  - DOMAIN,vscode.download.prss.microsoft.com # Visual Studio Code download CDN
+  - DOMAIN,download.visualstudio.microsoft.com # Visual Studio download server, provides dependencies for some VS Code extensions (C++, C#)
+  - DOMAIN-SUFFIX,gallery.vsassets.io # Visual Studio Marketplace
+  - DOMAIN-SUFFIX,gallerycdn.vsassets.io # Visual Studio Marketplace
+  - DOMAIN-SUFFIX,vsassets.io # Visual Studio Marketplace
+  - DOMAIN-SUFFIX,vscode-cdn.net # Visual Studio Code CDN
+  # Ubuntu
+  - DOMAIN-SUFFIX,cloud-images.ubuntu.com # Ubuntu cloud images
+  # Debian
+  - DOMAIN-SUFFIX,debian.map.fastlydns.net # Debian CDN
+  # K8s
+  - DOMAIN-SUFFIX,dl.k8s.io # K8s download
+  # Maven
+  - DOMAIN-SUFFIX,maven.org # Maven
+  # Clickhouse
+  - DOMAIN-SUFFIX,repo.clickhouse.com # ClickHouse repo
+  # Vagrant
+  - DOMAIN-SUFFIX,vagrantcloud.com # Vagrant boxes
+  # OrbStack
+  - DOMAIN,cdn-images.orbstack.dev # orbstack download images
