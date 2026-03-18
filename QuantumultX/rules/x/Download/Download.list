@@ -1,0 +1,91 @@
+# Microsoft windows
+HOST-SUFFIX,download.microsoft.com,Download
+HOST-SUFFIX,update.microsoft.com,Download
+HOST-SUFFIX,windowsupdate.com,Download
+HOST-SUFFIX,delivery.mp.microsoft.com,Download
+
+# Microsoft Office
+HOST-SUFFIX,officecdn.microsoft.com,Download
+HOST-SUFFIX,officecdn.microsoft.com.edgesuite.net,Download
+
+# Microsoft Azure
+HOST-SUFFIX,blob.core.windows.net,Download
+HOST-SUFFIX,azureedge.net,Download
+
+# GitHub
+# HOST,objects.githubusercontent.com,Download
+# HOST,release-assets.githubusercontent.com,Download
+HOST-SUFFIX,githubusercontent.com,Download
+
+# Google
+HOST-SUFFIX,dl.google.com,Download
+HOST,storage.googleapis.com,Download
+HOST-SUFFIX,gvt1.com,Download
+HOST-SUFFIX,gvt2.com,Download
+HOST-SUFFIX,gvt3.com,Download
+HOST-SUFFIX,usercontent.google.com,Download
+HOST-SUFFIX,googleusercontent.com,Download
+HOST-SUFFIX,ggpht.com,Download
+# HOST-SUFFIX,photos.google.com,Download
+# HOST-SUFFIX,drive.google.com,Download
+# HOST-SUFFIX,gstatic.com,Download
+
+# Amazon
+HOST-SUFFIX,cloudfront.net,Download
+HOST-SUFFIX,s3.amazonaws.com,Download
+HOST-SUFFIX,s3-accelerate.amazonaws.com,Download
+HOST-WILDCARD,*.s3.*.amazonaws.com,Download
+
+# Cloudflare
+HOST-SUFFIX,cloudflare.net,Download
+
+# Fastly
+HOST-SUFFIX,fastly.net,Download
+
+# Akamai
+HOST-SUFFIX,akamaihd.net,Download
+HOST-SUFFIX,edgekey.net,Download
+
+# Docker registries
+HOST,registry-1.docker.io,Download
+HOST,production.cloudflare.docker.com,Download
+HOST-SUFFIX,ecr.io,Download
+HOST-SUFFIX,gcr.io,Download
+HOST-SUFFIX,ghcr.io,Download
+HOST-SUFFIX,quay.io,Download
+HOST-SUFFIX,public.ecr.aws,Download
+HOST-KEYWORD,docker,Download
+HOST-KEYWORD,registry,Download
+
+# VSCode
+# See: https://code.visualstudio.com/docs/setup/network#_common-hostnames
+HOST,update.code.visualstudio.com,Download
+HOST,vscode.download.prss.microsoft.com,Download
+HOST,download.visualstudio.microsoft.com,Download
+HOST-SUFFIX,gallery.vsassets.io,Download
+HOST-SUFFIX,gallerycdn.vsassets.io,Download
+HOST-SUFFIX,vsassets.io,Download
+HOST-SUFFIX,vscode-cdn.net,Download
+
+# Mozilla
+HOST-SUFFIX,cdn.mozilla.net,Download
+
+# Ubuntu
+HOST-SUFFIX,cloud-images.ubuntu.com,Download
+# Debian
+HOST-SUFFIX,debian.map.fastlydns.net,Download
+
+# K8s
+HOST-SUFFIX,dl.k8s.io,Download
+
+# Maven
+HOST-SUFFIX,maven.org,Download
+
+# Clickhouse
+HOST-SUFFIX,repo.clickhouse.com,Download
+
+# Vagrant
+HOST-SUFFIX,vagrantcloud.com,Download
+
+# OrbStack
+HOST,cdn-images.orbstack.dev,Download
