@@ -1,6 +1,5 @@
 payload:
   # Microsoft windows
-  - PROCESS-NAME,winget.exe
   - DOMAIN-SUFFIX,download.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,windowsupdate.com
@@ -31,10 +30,6 @@ payload:
   # - DOMAIN-SUFFIX,photos.google.com # Google photos
   # - DOMAIN-SUFFIX,drive.google.com # Google drive
   # - DOMAIN-SUFFIX,gstatic.com # Google static content
-
-  # Google YouTube
-  - DOMAIN-SUFFIX,googlevideo.com # Google YouTube videos
-  - DOMAIN-SUFFIX,ytimg.com # Google YouTube images
 
   # Amazon
   - DOMAIN-SUFFIX,cloudfront.net # Amazon CloudFront
