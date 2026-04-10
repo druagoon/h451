@@ -38,6 +38,7 @@ HOST-WILDCARD,*.s3.*.amazonaws.com,Download
 
 # Cloudflare
 HOST-SUFFIX,cloudflare.net,Download
+HOST-SUFFIX,cloudflarestorage.com,Download
 
 # Fastly
 HOST-SUFFIX,fastly.net,Download

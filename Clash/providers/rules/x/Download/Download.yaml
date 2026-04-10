@@ -39,6 +39,7 @@ payload:
 
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflarestorage.com
 
   # Fastly
   - DOMAIN-SUFFIX,fastly.net
