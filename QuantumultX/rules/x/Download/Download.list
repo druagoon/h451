@@ -90,3 +90,7 @@ HOST-SUFFIX,vagrantcloud.com,Download
 
 # OrbStack
 HOST,cdn-images.orbstack.dev,Download
+
+# Discord
+HOST-SUFFIX,discordapp.com,Download
+HOST-SUFFIX,discordapp.net,Download

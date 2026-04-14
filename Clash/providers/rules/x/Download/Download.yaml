@@ -91,3 +91,7 @@ payload:
 
   # OrbStack
   - DOMAIN,cdn-images.orbstack.dev # orbstack download images
+
+  # Discord
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
