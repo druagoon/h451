@@ -20,7 +20,6 @@ def convert_line(line, group_name):
         'DOMAIN': 'HOST',
         'DOMAIN-SUFFIX': 'HOST-SUFFIX',
         'DOMAIN-KEYWORD': 'HOST-KEYWORD',
-        'DOMAIN-WILDCARD': 'HOST-WILDCARD',
         'IP-CIDR': 'IP-CIDR',
         'IP-CIDR6': 'IP-CIDR6',
         'GEOIP': 'GEOIP'
@@ -34,7 +33,9 @@ def convert_line(line, group_name):
         sub_parts = [p.strip() for p in rule_part.split(',')]
         if len(sub_parts) >= 2:
             rule_type = sub_parts[0]
-            new_type = type_mapping.get(rule_type, rule_type)
+            if rule_type not in type_mapping:
+                return None
+            new_type = type_mapping[rule_type]
             return f"{new_type},{sub_parts[1]},{group_name}"
         return rule_part
 
@@ -46,7 +47,9 @@ def convert_line(line, group_name):
         sub_parts = [p.strip() for p in rule_part.split(',')]
         if len(sub_parts) >= 2:
             rule_type = sub_parts[0]
-            new_type = type_mapping.get(rule_type, rule_type)
+            if rule_type not in type_mapping:
+                return None
+            new_type = type_mapping[rule_type]
             # Prepend "# " to keep the rule itself commented out
             return f"# {new_type},{sub_parts[1]},{group_name}"
         return f"# {rule_part}"
@@ -78,7 +81,7 @@ def process_file(src_path, dst_path):
 
     # Ensure the destination directory exists
     os.makedirs(os.path.dirname(dst_path), exist_ok=True)
-    with open(dst_path, 'w', encoding='utf-8') as f:
+    with open(dst_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(output_lines) + '\n')
 
 def main():
