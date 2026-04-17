@@ -1,0 +1,22 @@
+# WoW PvP
+HOST-SUFFIX,murlok.io,Game
+HOST-SUFFIX,drustvar.com,Game
+HOST-SUFFIX,pvpq.net,Game
+# WoW Addons
+HOST-SUFFIX,bloodmallet.com,Game
+HOST-SUFFIX,reamaze.com,Game
+HOST-SUFFIX,reamaze.io,Game
+HOST-SUFFIX,clarity.ms,Game
+HOST-SUFFIX,forgecdn.net,Game
+HOST-SUFFIX,curseforge.com,Game
+HOST-SUFFIX,overwolf.com,Game
+HOST-SUFFIX,wago.io,Game
+HOST-SUFFIX,raider.io,Game
+HOST-SUFFIX,raiderio.net,Game
+HOST-SUFFIX,archon.gg,Game
+HOST-SUFFIX,rpglogs.com,Game
+HOST-SUFFIX,warcraftlogs.com,Game
+HOST-SUFFIX,wowhead.com,Game
+PROCESS-NAME,CurseForge.exe,Game
+PROCESS-NAME,Curse.Agent.Host.exe,Game
+PROCESS-NAME,Archon App.exe,Game

@@ -1,0 +1,23 @@
+payload:
+  # WoW PvP
+  - DOMAIN-SUFFIX,murlok.io,Game
+  - DOMAIN-SUFFIX,drustvar.com,Game
+  - DOMAIN-SUFFIX,pvpq.net,Game
+  # WoW Addons
+  - DOMAIN-SUFFIX,bloodmallet.com,Game
+  - DOMAIN-SUFFIX,reamaze.com,Game
+  - DOMAIN-SUFFIX,reamaze.io,Game
+  - DOMAIN-SUFFIX,clarity.ms,Game
+  - DOMAIN-SUFFIX,forgecdn.net,Game
+  - DOMAIN-SUFFIX,curseforge.com,Game
+  - DOMAIN-SUFFIX,overwolf.com,Game
+  - DOMAIN-SUFFIX,wago.io,Game
+  - DOMAIN-SUFFIX,raider.io,Game
+  - DOMAIN-SUFFIX,raiderio.net,Game
+  - DOMAIN-SUFFIX,archon.gg,Game
+  - DOMAIN-SUFFIX,rpglogs.com,Game
+  - DOMAIN-SUFFIX,warcraftlogs.com,Game
+  - DOMAIN-SUFFIX,wowhead.com,Game
+  - PROCESS-NAME,CurseForge.exe,Game
+  - PROCESS-NAME,Curse.Agent.Host.exe,Game
+  - PROCESS-NAME,Archon App.exe,Game
