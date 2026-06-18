@@ -17,6 +17,3 @@ HOST-SUFFIX,archon.gg,Game
 HOST-SUFFIX,rpglogs.com,Game
 HOST-SUFFIX,warcraftlogs.com,Game
 HOST-SUFFIX,wowhead.com,Game
-PROCESS-NAME,CurseForge.exe,Game
-PROCESS-NAME,Curse.Agent.Host.exe,Game
-PROCESS-NAME,Archon App.exe,Game

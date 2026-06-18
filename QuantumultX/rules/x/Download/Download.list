@@ -34,7 +34,6 @@ HOST-SUFFIX,ggpht.com,Download
 HOST-SUFFIX,cloudfront.net,Download
 HOST-SUFFIX,s3.amazonaws.com,Download
 HOST-SUFFIX,s3-accelerate.amazonaws.com,Download
-# DOMAIN-WILDCARD,*.s3.*.amazonaws.com,Download
 
 # Cloudflare
 HOST-SUFFIX,cloudflare.net,Download
