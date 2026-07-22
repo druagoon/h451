@@ -1,0 +1,18 @@
+# > Futu
+HOST-WILDCARD,futu?.com,Broker
+# > Tiger Brokers
+HOST-SUFFIX,itiger.cn,Broker
+HOST-SUFFIX,itigergrowtha.com,Broker
+HOST-SUFFIX,itigergrowth.com,Broker
+HOST-SUFFIX,skytigris.cn,Broker
+HOST-SUFFIX,tigerbrokers.com.sg,Broker
+HOST-SUFFIX,tigerbrokers.com.au,Broker
+HOST-SUFFIX,tigersecurities.com,Broker
+HOST-SUFFIX,tigertech.net,Broker
+HOST-SUFFIX,tigertech.sg,Broker
+HOST-SUFFIX,tigrwd.com,Broker
+HOST-WILDCARD,laohu?.com,Broker
+# HOST-KEYWORD,skytigris,Broker
+# HOST-KEYWORD,tigrwd,Broker
+# HOST-KEYWORD,tradeup,Broker
+# HOST-KEYWORD,itigerup,Broker

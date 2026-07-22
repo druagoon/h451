@@ -1,0 +1,19 @@
+payload:
+  # > Futu
+  - DOMAIN-WILDCARD,futu?.com
+  # > Tiger Brokers
+  - DOMAIN-SUFFIX,itiger.cn
+  - DOMAIN-SUFFIX,itigergrowtha.com
+  - DOMAIN-SUFFIX,itigergrowth.com
+  - DOMAIN-SUFFIX,skytigris.cn
+  - DOMAIN-SUFFIX,tigerbrokers.com.sg
+  - DOMAIN-SUFFIX,tigerbrokers.com.au
+  - DOMAIN-SUFFIX,tigersecurities.com
+  - DOMAIN-SUFFIX,tigertech.net
+  - DOMAIN-SUFFIX,tigertech.sg
+  - DOMAIN-SUFFIX,tigrwd.com
+  - DOMAIN-WILDCARD,laohu?.com
+  # - DOMAIN-KEYWORD,skytigris
+  # - DOMAIN-KEYWORD,tigrwd
+  # - DOMAIN-KEYWORD,tradeup
+  # - DOMAIN-KEYWORD,itigerup
