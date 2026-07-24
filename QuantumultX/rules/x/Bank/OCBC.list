@@ -1,0 +1,13 @@
+# https://github.com/Bwy999/Surge/blob/master/Ruleset/OCBC.list
+# OCBC Official Website
+HOST-SUFFIX,ocbc.com,OCBC
+# CDN
+# HOST,ocbcstack-prd-cdn.ascentismedia.com,OCBC
+# 问卷 (Qualtrics, OCBC 租户) ----------
+# HOST,ocbc.au1.qualtrics.com,OCBC
+# HOST,zn1z6ngdutm8gqq18-ocbc.siteintercept.qualtrics.com,OCBC
+# 分析 (Adobe, OCBC 租户) ----------
+# HOST,overseachinesebankingcorporationlimited.sc.omtrdc.net,OCBC
+# HOST,overseachinesebankin.tt.omtrdc.net,OCBC
+# HOST,ocbc.demdex.net,OCBC
+# HOST,ocbc.data.adobedc.net,OCBC

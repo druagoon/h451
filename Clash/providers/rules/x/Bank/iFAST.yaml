@@ -1,0 +1,27 @@
+# https://github.com/StricklandF/Filter/blob/main/iFastGB.list
+# https://github.com/Bwy999/Surge/blob/master/Ruleset/HKBank.list
+payload:
+  - DOMAIN-SUFFIX,fsmone.com
+  - DOMAIN-SUFFIX,fsmone.com.hk
+  - DOMAIN-SUFFIX,fsmone.com.my
+  - DOMAIN-SUFFIX,fundsupermart.com
+  - DOMAIN-SUFFIX,ifastcapital.com.my
+  - DOMAIN-SUFFIX,ifastcorp.com
+  - DOMAIN-SUFFIX,ifastfinancial.com
+  - DOMAIN-SUFFIX,ifastfinancial.com.hk
+  - DOMAIN-SUFFIX,ifastfinancial.co.in
+  - DOMAIN-SUFFIX,ifastgb.com
+  - DOMAIN-SUFFIX,ifastgm.com.hk
+  - DOMAIN-SUFFIX,ifastgm.com.sg
+  - DOMAIN-SUFFIX,ifastgp.com
+  - DOMAIN-SUFFIX,ifastgp.com.hk
+  - DOMAIN-SUFFIX,ifastnetwork.com
+  - DOMAIN-SUFFIX,ifastglobalview.com
+  - DOMAIN-SUFFIX,ifastps.com.cn
+  - DOMAIN-SUFFIX,ifasttv.com
+  # - DOMAIN,igb-ai-cs-communication-app-prod.azurewebsites.net
+  # - DOMAIN,jylcpxrv.r.eu-west-2.awstrack.me
+  # iFAST 客服聊天 (Teams 通道)
+  # - DOMAIN,go.trouter.teams.microsoft.com
+  # iFAST 反欺诈 SDK (Zimperium zDefend)
+  - DOMAIN-SUFFIX,zimperium.com

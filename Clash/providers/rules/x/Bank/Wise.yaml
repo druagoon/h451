@@ -1,0 +1,4 @@
+# https://github.com/StricklandF/Filter/blob/main/Wise.list
+payload:
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,transferwise.com

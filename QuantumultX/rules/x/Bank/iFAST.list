@@ -1,0 +1,26 @@
+# https://github.com/StricklandF/Filter/blob/main/iFastGB.list
+# https://github.com/Bwy999/Surge/blob/master/Ruleset/HKBank.list
+HOST-SUFFIX,fsmone.com,iFAST
+HOST-SUFFIX,fsmone.com.hk,iFAST
+HOST-SUFFIX,fsmone.com.my,iFAST
+HOST-SUFFIX,fundsupermart.com,iFAST
+HOST-SUFFIX,ifastcapital.com.my,iFAST
+HOST-SUFFIX,ifastcorp.com,iFAST
+HOST-SUFFIX,ifastfinancial.com,iFAST
+HOST-SUFFIX,ifastfinancial.com.hk,iFAST
+HOST-SUFFIX,ifastfinancial.co.in,iFAST
+HOST-SUFFIX,ifastgb.com,iFAST
+HOST-SUFFIX,ifastgm.com.hk,iFAST
+HOST-SUFFIX,ifastgm.com.sg,iFAST
+HOST-SUFFIX,ifastgp.com,iFAST
+HOST-SUFFIX,ifastgp.com.hk,iFAST
+HOST-SUFFIX,ifastnetwork.com,iFAST
+HOST-SUFFIX,ifastglobalview.com,iFAST
+HOST-SUFFIX,ifastps.com.cn,iFAST
+HOST-SUFFIX,ifasttv.com,iFAST
+# HOST,igb-ai-cs-communication-app-prod.azurewebsites.net,iFAST
+# HOST,jylcpxrv.r.eu-west-2.awstrack.me,iFAST
+# iFAST 客服聊天 (Teams 通道)
+# HOST,go.trouter.teams.microsoft.com,iFAST
+# iFAST 反欺诈 SDK (Zimperium zDefend)
+HOST-SUFFIX,zimperium.com,iFAST
