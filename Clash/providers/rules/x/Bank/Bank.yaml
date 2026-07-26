@@ -1,7 +1,9 @@
-# https://github.com/StricklandF/Filter/blob/main/iFastGB.list
-# https://github.com/Bwy999/Surge/blob/master/Ruleset/HKBank.list
-# iFAST Global Bank
+# Generated from:
+# - Clash/providers/rules/x/Bank/iFAST.yaml
+# - Clash/providers/rules/x/Bank/OCBC.yaml
+# - Clash/providers/rules/x/Bank/Wise.yaml
 payload:
+  # iFAST Global Bank
   - DOMAIN-SUFFIX,fsmone.com
   - DOMAIN-SUFFIX,fsmone.com.hk
   - DOMAIN-SUFFIX,fsmone.com.my
@@ -26,3 +28,20 @@ payload:
   # - DOMAIN,go.trouter.teams.microsoft.com
   # iFAST 反欺诈 SDK (Zimperium zDefend)
   - DOMAIN-SUFFIX,zimperium.com
+
+  # OCBC Bank
+  - DOMAIN-SUFFIX,ocbc.com
+  # CDN
+  # - DOMAIN,ocbcstack-prd-cdn.ascentismedia.com
+  # 问卷 (Qualtrics, OCBC 租户) ----------
+  # - DOMAIN,ocbc.au1.qualtrics.com
+  # - DOMAIN,zn1z6ngdutm8gqq18-ocbc.siteintercept.qualtrics.com
+  # 分析 (Adobe, OCBC 租户) ----------
+  # - DOMAIN,overseachinesebankingcorporationlimited.sc.omtrdc.net
+  # - DOMAIN,overseachinesebankin.tt.omtrdc.net
+  # - DOMAIN,ocbc.demdex.net
+  # - DOMAIN,ocbc.data.adobedc.net
+
+  # Wise
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,transferwise.com

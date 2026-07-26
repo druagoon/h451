@@ -1,0 +1,46 @@
+# Generated from:
+# - Clash/providers/rules/x/Bank/iFAST.yaml
+# - Clash/providers/rules/x/Bank/OCBC.yaml
+# - Clash/providers/rules/x/Bank/Wise.yaml
+# iFAST Global Bank
+HOST-SUFFIX,fsmone.com,Bank
+HOST-SUFFIX,fsmone.com.hk,Bank
+HOST-SUFFIX,fsmone.com.my,Bank
+HOST-SUFFIX,fundsupermart.com,Bank
+HOST-SUFFIX,ifastcapital.com.my,Bank
+HOST-SUFFIX,ifastcorp.com,Bank
+HOST-SUFFIX,ifastfinancial.com,Bank
+HOST-SUFFIX,ifastfinancial.com.hk,Bank
+HOST-SUFFIX,ifastfinancial.co.in,Bank
+HOST-SUFFIX,ifastgb.com,Bank
+HOST-SUFFIX,ifastgm.com.hk,Bank
+HOST-SUFFIX,ifastgm.com.sg,Bank
+HOST-SUFFIX,ifastgp.com,Bank
+HOST-SUFFIX,ifastgp.com.hk,Bank
+HOST-SUFFIX,ifastnetwork.com,Bank
+HOST-SUFFIX,ifastglobalview.com,Bank
+HOST-SUFFIX,ifastps.com.cn,Bank
+HOST-SUFFIX,ifasttv.com,Bank
+# HOST,igb-ai-cs-communication-app-prod.azurewebsites.net,Bank
+# HOST,jylcpxrv.r.eu-west-2.awstrack.me,Bank
+# iFAST 客服聊天 (Teams 通道)
+# HOST,go.trouter.teams.microsoft.com,Bank
+# iFAST 反欺诈 SDK (Zimperium zDefend)
+HOST-SUFFIX,zimperium.com,Bank
+
+# OCBC Bank
+HOST-SUFFIX,ocbc.com,Bank
+# CDN
+# HOST,ocbcstack-prd-cdn.ascentismedia.com,Bank
+# 问卷 (Qualtrics, OCBC 租户) ----------
+# HOST,ocbc.au1.qualtrics.com,Bank
+# HOST,zn1z6ngdutm8gqq18-ocbc.siteintercept.qualtrics.com,Bank
+# 分析 (Adobe, OCBC 租户) ----------
+# HOST,overseachinesebankingcorporationlimited.sc.omtrdc.net,Bank
+# HOST,overseachinesebankin.tt.omtrdc.net,Bank
+# HOST,ocbc.demdex.net,Bank
+# HOST,ocbc.data.adobedc.net,Bank
+
+# Wise
+HOST-SUFFIX,wise.com,Bank
+HOST-SUFFIX,transferwise.com,Bank

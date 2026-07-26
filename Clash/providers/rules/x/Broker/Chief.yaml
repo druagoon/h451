@@ -1,0 +1,17 @@
+# https://github.com/zhx60403/hk-finance-app-rules/blob/main/loon/brokerage.list
+# Chief Securities / 致富证券
+payload:
+  - DOMAIN-SUFFIX,chiefgroup.com.hk
+  - DOMAIN-SUFFIX,chiefsecurities.com.hk
+  - DOMAIN-SUFFIX,chief.com.hk
+  - DOMAIN-SUFFIX,chief-sec.com.hk
+  - DOMAIN-SUFFIX,chieftrade.com
+  - DOMAIN-SUFFIX,cg1979.com
+  - DOMAIN-SUFFIX,zft2000.com
+  - DOMAIN-SUFFIX,zft2025.com
+  - DOMAIN-KEYWORD,chiefgroup
+  - DOMAIN-KEYWORD,chiefsecurities
+  - DOMAIN-KEYWORD,chief-sec
+  - DOMAIN-KEYWORD,chieftrade
+  - DOMAIN-KEYWORD,chieftrader
+  - DOMAIN-KEYWORD,chief

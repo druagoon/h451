@@ -1,4 +1,4 @@
-# GEMINI.md - Project Context for h451
+# AGENTS.md - Project Context for h451
 
 ## Project Overview
 
@@ -23,7 +23,8 @@ The project structure is organized by proxy client type and assets:
   - `Color/`: Processed icons resized to 144x144 (used in proxy client UIs).
 - `Clash/providers/rules/x/`: Categorized rule providers for Clash (e.g., Amazon, OpenAI, Twitter).
 - `QuantumultX/rules/x/`: Categorized rule lists for QuantumultX.
-- `resample.sh`: A shell script to batch process icons from `Source/` to `Color/`.
+- `scripts/convert_rules.py`: Converts Clash rules to QuantumultX lists.
+- `scripts/resample.sh`: A shell script to batch process icons from `Source/` to `Color/`.
 - `GNUmakefile`: Includes common dev-tools (likely part of a larger dotfiles setup).
 
 ## Common Operations
@@ -33,7 +34,7 @@ The project structure is organized by proxy client type and assets:
 To regenerate processed icons from source images, run:
 
 ```bash
-./resample.sh
+./scripts/resample.sh
 ```
 
 _Note: This script requires `sips` (standard on macOS)._

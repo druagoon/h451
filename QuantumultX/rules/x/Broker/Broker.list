@@ -1,6 +1,42 @@
-# > Futu
+# Generated from:
+# - Clash/providers/rules/x/Broker/Chief.yaml
+# - Clash/providers/rules/x/Broker/Futu.yaml
+# - Clash/providers/rules/x/Broker/IBKR.yaml
+# - Clash/providers/rules/x/Broker/Tiger.yaml
+# Chief Securities / 致富证券
+HOST-SUFFIX,chiefgroup.com.hk,Broker
+HOST-SUFFIX,chiefsecurities.com.hk,Broker
+HOST-SUFFIX,chief.com.hk,Broker
+HOST-SUFFIX,chief-sec.com.hk,Broker
+HOST-SUFFIX,chieftrade.com,Broker
+HOST-SUFFIX,cg1979.com,Broker
+HOST-SUFFIX,zft2000.com,Broker
+HOST-SUFFIX,zft2025.com,Broker
+HOST-KEYWORD,chiefgroup,Broker
+HOST-KEYWORD,chiefsecurities,Broker
+HOST-KEYWORD,chief-sec,Broker
+HOST-KEYWORD,chieftrade,Broker
+HOST-KEYWORD,chieftrader,Broker
+HOST-KEYWORD,chief,Broker
+
+# Futu / 富途证券
 HOST-WILDCARD,futu?.com,Broker
-# > Tiger Brokers
+
+# Interactive Brokers / IBKR / 盈透证券
+HOST-SUFFIX,interactivebrokers.com,Broker
+HOST-SUFFIX,interactivebrokers.com.hk,Broker
+HOST-SUFFIX,interactivebrokers.co.uk,Broker
+HOST-SUFFIX,ibkr.com,Broker
+HOST-SUFFIX,ibllc.com,Broker
+HOST-SUFFIX,ibkr.info,Broker
+HOST-SUFFIX,ibkrguides.com,Broker
+HOST-SUFFIX,ibkr.com.cn,Broker
+HOST-SUFFIX,ibkr.com.hk,Broker
+HOST-KEYWORD,interactivebrokers,Broker
+HOST-KEYWORD,ibkr,Broker
+HOST-KEYWORD,ibllc,Broker
+
+# Tiger Brokers / 老虎证券
 HOST-SUFFIX,itiger.cn,Broker
 HOST-SUFFIX,itigergrowtha.com,Broker
 HOST-SUFFIX,itigergrowth.com,Broker

@@ -1,0 +1,16 @@
+# https://github.com/zhx60403/hk-finance-app-rules/blob/main/loon/brokerage.list
+# Chief Securities / 致富证券
+HOST-SUFFIX,chiefgroup.com.hk,Chief
+HOST-SUFFIX,chiefsecurities.com.hk,Chief
+HOST-SUFFIX,chief.com.hk,Chief
+HOST-SUFFIX,chief-sec.com.hk,Chief
+HOST-SUFFIX,chieftrade.com,Chief
+HOST-SUFFIX,cg1979.com,Chief
+HOST-SUFFIX,zft2000.com,Chief
+HOST-SUFFIX,zft2025.com,Chief
+HOST-KEYWORD,chiefgroup,Chief
+HOST-KEYWORD,chiefsecurities,Chief
+HOST-KEYWORD,chief-sec,Chief
+HOST-KEYWORD,chieftrade,Chief
+HOST-KEYWORD,chieftrader,Chief
+HOST-KEYWORD,chief,Chief

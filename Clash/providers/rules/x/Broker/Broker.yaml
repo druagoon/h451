@@ -1,7 +1,43 @@
+# Generated from:
+# - Clash/providers/rules/x/Broker/Chief.yaml
+# - Clash/providers/rules/x/Broker/Futu.yaml
+# - Clash/providers/rules/x/Broker/IBKR.yaml
+# - Clash/providers/rules/x/Broker/Tiger.yaml
 payload:
-  # > Futu
+  # Chief Securities / 致富证券
+  - DOMAIN-SUFFIX,chiefgroup.com.hk
+  - DOMAIN-SUFFIX,chiefsecurities.com.hk
+  - DOMAIN-SUFFIX,chief.com.hk
+  - DOMAIN-SUFFIX,chief-sec.com.hk
+  - DOMAIN-SUFFIX,chieftrade.com
+  - DOMAIN-SUFFIX,cg1979.com
+  - DOMAIN-SUFFIX,zft2000.com
+  - DOMAIN-SUFFIX,zft2025.com
+  - DOMAIN-KEYWORD,chiefgroup
+  - DOMAIN-KEYWORD,chiefsecurities
+  - DOMAIN-KEYWORD,chief-sec
+  - DOMAIN-KEYWORD,chieftrade
+  - DOMAIN-KEYWORD,chieftrader
+  - DOMAIN-KEYWORD,chief
+
+  # Futu / 富途证券
   - DOMAIN-WILDCARD,futu?.com
-  # > Tiger Brokers
+
+  # Interactive Brokers / IBKR / 盈透证券
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,interactivebrokers.com.hk
+  - DOMAIN-SUFFIX,interactivebrokers.co.uk
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,ibkr.info
+  - DOMAIN-SUFFIX,ibkrguides.com
+  - DOMAIN-SUFFIX,ibkr.com.cn
+  - DOMAIN-SUFFIX,ibkr.com.hk
+  - DOMAIN-KEYWORD,interactivebrokers
+  - DOMAIN-KEYWORD,ibkr
+  - DOMAIN-KEYWORD,ibllc
+
+  # Tiger Brokers / 老虎证券
   - DOMAIN-SUFFIX,itiger.cn
   - DOMAIN-SUFFIX,itigergrowtha.com
   - DOMAIN-SUFFIX,itigergrowth.com

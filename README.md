@@ -5,7 +5,7 @@ HTTP 451 Unavailable For Legal Reasons
 ## Convert Clash rules to Quantumult X
 
 ```shell
-./convert_rules.py
+make convert
 ```
 
 ## Convert to RGBA PNG
@@ -21,5 +21,5 @@ rembg i ./Assets/IconSet/Source/Bank.png
 ## Resample icons
 
 ```shell
-./resample.sh
+make resample
 ```

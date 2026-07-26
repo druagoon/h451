@@ -1,0 +1,12 @@
+rules:
+  - source:
+      - Clash/providers/rules/x/Bank/iFAST.yaml
+      - Clash/providers/rules/x/Bank/OCBC.yaml
+      - Clash/providers/rules/x/Bank/Wise.yaml
+    target: Clash/providers/rules/x/Bank/Bank.yaml
+  - source:
+      - Clash/providers/rules/x/Broker/Chief.yaml
+      - Clash/providers/rules/x/Broker/Futu.yaml
+      - Clash/providers/rules/x/Broker/IBKR.yaml
+      - Clash/providers/rules/x/Broker/Tiger.yaml
+    target: Clash/providers/rules/x/Broker/Broker.yaml

@@ -1,5 +1,6 @@
 # https://github.com/StricklandF/Filter/blob/main/iFastGB.list
 # https://github.com/Bwy999/Surge/blob/master/Ruleset/HKBank.list
+# iFAST Global Bank
 HOST-SUFFIX,fsmone.com,iFAST
 HOST-SUFFIX,fsmone.com.hk,iFAST
 HOST-SUFFIX,fsmone.com.my,iFAST

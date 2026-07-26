@@ -1,6 +1,6 @@
 # https://github.com/Bwy999/Surge/blob/master/Ruleset/OCBC.list
+# OCBC Bank
 payload:
-  # OCBC Official Website
   - DOMAIN-SUFFIX,ocbc.com
   # CDN
   # - DOMAIN,ocbcstack-prd-cdn.ascentismedia.com

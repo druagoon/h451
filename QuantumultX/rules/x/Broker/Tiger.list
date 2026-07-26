@@ -1,0 +1,16 @@
+# Tiger Brokers / 老虎证券
+HOST-SUFFIX,itiger.cn,Tiger
+HOST-SUFFIX,itigergrowtha.com,Tiger
+HOST-SUFFIX,itigergrowth.com,Tiger
+HOST-SUFFIX,skytigris.cn,Tiger
+HOST-SUFFIX,tigerbrokers.com.sg,Tiger
+HOST-SUFFIX,tigerbrokers.com.au,Tiger
+HOST-SUFFIX,tigersecurities.com,Tiger
+HOST-SUFFIX,tigertech.net,Tiger
+HOST-SUFFIX,tigertech.sg,Tiger
+HOST-SUFFIX,tigrwd.com,Tiger
+HOST-WILDCARD,laohu?.com,Tiger
+# HOST-KEYWORD,skytigris,Tiger
+# HOST-KEYWORD,tigrwd,Tiger
+# HOST-KEYWORD,tradeup,Tiger
+# HOST-KEYWORD,itigerup,Tiger

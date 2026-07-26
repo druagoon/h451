@@ -1,0 +1,13 @@
+# Interactive Brokers / IBKR / 盈透证券
+HOST-SUFFIX,interactivebrokers.com,IBKR
+HOST-SUFFIX,interactivebrokers.com.hk,IBKR
+HOST-SUFFIX,interactivebrokers.co.uk,IBKR
+HOST-SUFFIX,ibkr.com,IBKR
+HOST-SUFFIX,ibllc.com,IBKR
+HOST-SUFFIX,ibkr.info,IBKR
+HOST-SUFFIX,ibkrguides.com,IBKR
+HOST-SUFFIX,ibkr.com.cn,IBKR
+HOST-SUFFIX,ibkr.com.hk,IBKR
+HOST-KEYWORD,interactivebrokers,IBKR
+HOST-KEYWORD,ibkr,IBKR
+HOST-KEYWORD,ibllc,IBKR

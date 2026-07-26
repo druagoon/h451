@@ -1,5 +1,5 @@
 # https://github.com/Bwy999/Surge/blob/master/Ruleset/OCBC.list
-# OCBC Official Website
+# OCBC Bank
 HOST-SUFFIX,ocbc.com,OCBC
 # CDN
 # HOST,ocbcstack-prd-cdn.ascentismedia.com,OCBC
